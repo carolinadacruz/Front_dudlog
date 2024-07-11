@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.quadrado {
+    width: 800px;
+    height: 500px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);    
+    margin-left: 20px;
+}
+
+
+.retangulo {
+    width: 300px;
+    height: 500px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #210108;
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    padding: 10px 10;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
