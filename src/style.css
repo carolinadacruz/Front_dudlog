@@ -26,8 +26,7 @@ footer {
     border-radius: 5px;
     font-size: 16px;
     transform: translateY(-50%);
-    margin-right: 150px;
-    margin-bottom: 150px;
+    margin-right: 173px;
 }
 
 .input-container button {
@@ -77,4 +76,13 @@ footer {
     transform: translateY(-50%);
     margin-right: 20px;
     z-index: 0;
+}
+
+.texto {
+    padding: 10px;
+    font-size: 16px;
+    transform: translateY(-50%);
+    margin-right: 173px;
+    right: 5%;
+    top: 50%;
 }
