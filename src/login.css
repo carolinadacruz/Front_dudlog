@@ -1,0 +1,79 @@
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.input-container input[type="email"],
+.input-container input[type="password"] {
+    width: 155px;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #210108;
+    border-radius: 5px;
+    font-size: 16px;
+    transform: translateY(-50%);
+    margin-right: 173px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #640318;; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-container button:hover {
+    background-color: #930121; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.quadrado {
+    width: 800px;
+    height: 500px;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);    
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.retangulo {
+    width: 300px;
+    height: 500px;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 20px;
+    z-index: 0;
+}
+
+.texto {
+    padding: 10px;
+    font-size: 16px;
+    transform: translateY(-50%);
+    margin-right: 173px;
+    right: 5%;
+    top: 50%;
+}
