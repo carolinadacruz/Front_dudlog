@@ -77,3 +77,14 @@
     right: 5%;
     top: 50%;
 }
+
+footer {
+    background-color: #210108;
+    border: 3px solid black;
+    color: white;
+    text-align: center;
+    padding: 10px 10;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

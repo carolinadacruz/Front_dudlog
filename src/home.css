@@ -11,7 +11,7 @@ footer {
     bottom: 0;
 }
 
-.header {
+.containerHome {
     background-color: #210108;
     border: 3px solid black;
     border-radius: 5px;
@@ -20,27 +20,12 @@ footer {
     width: 101%;
     height: 60px;
     margin: 0 auto;
+    flex-direction: row;
 }
 
 .links {
     flex-direction: row;
-}
-
-nav ul li {
-    margin: 0;
-    flex-direction: row;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    flex-direction: row;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .container {
